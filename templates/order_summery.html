@@ -1,0 +1,9 @@
+{% if orders_ %}
+<ul>
+{% for order in orders %}
+    <li>{{ order.name }}</li>
+    <li>{{ order.size }}</li>
+    ...
+{% endfor %}
+</ul>
+{% endif %}
